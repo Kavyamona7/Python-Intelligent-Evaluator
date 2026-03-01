@@ -10,28 +10,6 @@ It Does professors create and publish coding challenges, students submit Python 
 Frontend, React + Vite + TypeScript, Tailwind CSS, Axios (JWT integration), Backend, Flask (REST API), SQLAlchemy ORM, Flask-JWT-Extended, bcrypt password hashing, Database, MySQL, AI & Analysis, LLM-based semantic grading, Streamlit microservice, Radon, Bandit, Flake8
 
 
-📡 Core API
-POST   /api/auth/login
-GET    /api/challenges/?status=published
-POST   /api/submissions/
-POST   /api/deep-eval/launch
-
-⚙️ Local Setup
-Backend
-<img width="1162" height="273" alt="image" src="https://github.com/user-attachments/assets/ef6160ef-b3e6-4214-a6d0-4e598912597c" />
-cd backend
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-python -m backend.main
-Frontend
-cd frontend
-npm install
-npm run dev
-🧩 Key Design Highlights
-
-Stateless REST architecture
-
 Role-aware dashboards
 
 Hybrid AI + optional runtime test evaluation
